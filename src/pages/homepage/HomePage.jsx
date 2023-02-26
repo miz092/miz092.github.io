@@ -14,7 +14,7 @@ function HomePage() {
   return (
     <div className="portfolio__homePage">
       <div className="portfolio__homePage_about">
-        <h2> Hi, My Name is Zoltán</h2>
+        <h2> Hi, my name is Zoltán</h2>
         <div className="portfolio__homePage_about-prompt">
           <p>
             A wanna-be software developer with a passion for learning and

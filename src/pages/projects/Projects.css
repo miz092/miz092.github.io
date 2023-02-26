@@ -1,0 +1,12 @@
+.portfolio__projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--secondary-text);
+  font-size: 50px;
+  font-weight: bolder;
+}
