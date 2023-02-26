@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ReorderTwoTone } from "@mui/icons-material";
 import { useEffect, useState } from "react";
+import StyledButton from "../styledbutton/StyledButton";
 import "./Navbar.css";
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -22,9 +23,19 @@ function Navbar() {
         </button>
       </div>
       <div className="portfolio__navbar_links">
-        <Link to={"/"}>Home</Link>
-        <Link to={"/projects"}>Projects</Link>
-        <Link to={"/experience"}>Experience</Link>
+        {" "}
+        <Link to={"/"}>
+          {" "}
+          <StyledButton text={"home"}> </StyledButton>{" "}
+        </Link>
+        <Link to={"/projects"}>
+          {" "}
+          <StyledButton text={"projects"}> </StyledButton>
+        </Link>
+        <Link to={"/experience"}>
+          {" "}
+          <StyledButton text={"experience"}> </StyledButton>
+        </Link>
       </div>
     </div>
   );

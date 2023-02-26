@@ -10,7 +10,7 @@
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   background-color: var(--secondary-bg);
@@ -24,7 +24,7 @@
 }
 
 .portfolio__homePage_about .portfolio__homePage_about-prompt {
-  width: 40%;
+  width: 50%;
   font-size: 30px;
 }
 .portfolio__homePage_about-prompt svg {
