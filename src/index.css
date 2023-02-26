@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+:root {
+  --font-family: "Manrope", sans-serif;
+
+  --gradient-text: linear-gradient(103.22deg, #ffddd2 -13.86%, #e29578 99.55%);
+  --gradient-bar: linear-gradient(103.22deg, #e76f51 -13.86%, #ffee00 99.55%);
+
+  --primary-bg: #006d77;
+  --primary-footer: #83c5be;
+  --primary-text: #ffffff;
+  --primary-subtext: #ffffff;
+
+  --secondary-bg: #1d3557;
+  --secondary-accent: #a8dadc;
+  --secondary-footer: #e63946;
+  --secondary-text: #f1faee;
+  --secondary-subtext: #457b9d;
+}
