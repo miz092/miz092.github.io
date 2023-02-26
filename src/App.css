@@ -11,3 +11,34 @@ body {
   padding: 0;
   margin: 0;
 }
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+  .section__margin {
+    margin: 4rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-footer);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-text);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(52, 31, 2);
+}

@@ -2,9 +2,14 @@
   border-color: #e9c46a;
   padding: 0.6em 2.3em;
   cursor: pointer;
+  width: 220px;
   font-size: 1em;
-  color: var(--secondary-text);
-  background-image: linear-gradient(45deg, #f4a261 50%, #e9c46a 50%);
+  color: var(--secondary-bg);
+  background-image: linear-gradient(
+    45deg,
+    var(--secondary-text) 50%,
+    #e9c46a 50%
+  );
   background-position: 25%;
   background-size: 400%;
   border-radius: 5px;
@@ -15,10 +20,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: none;
 }
 .bn32:hover {
   color: #264653;
   background-position: 100%;
-  transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms, box-shadow 300ms ease-in-out;
   box-shadow: #264653 5px 5px;
 }

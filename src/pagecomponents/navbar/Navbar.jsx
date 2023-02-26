@@ -23,7 +23,6 @@ function Navbar() {
         </button>
       </div>
       <div className="portfolio__navbar_links">
-        {" "}
         <Link to={"/"}>
           {" "}
           <StyledButton text={"home"}> </StyledButton>{" "}

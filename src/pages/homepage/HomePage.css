@@ -30,40 +30,56 @@
 .portfolio__homePage_about-prompt svg {
   font-size: 60px;
   margin: 5px;
-  color: white;
+  color: var(--secondary-text);
   cursor: pointer;
 }
-
-.portfolio__homePage_skills {
-  font-size: 35px;
-  width: 100%;
+.portfolio__homePage_skills-list_item div {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.portfolio__homePage_skills-list_item div svg {
+  width: 50px;
+  height: 50px;
+}
+.portfolio__homePage_skills {
+  width: 100%;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  color: var(--secondary-text);
+  overflow-x: hidden;
 }
 
 .portfolio__homePage_skills h1 {
-  color: var(--secondary-text);
+  font-size: 40px;
+  color: var(--secondary-bg);
   margin-bottom: -3rem;
 }
 
 .portfolio__homePage_skills .portfolio__homePage_skills-list {
-  list-style: none;
-
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
+
 .portfolio__homePage_skills-list div {
   margin: 4rem;
   text-align: center;
+  display: flex;
+  position: relative;
+  flex-direction: column;
 }
 .portfolio__homePage_skills-list span {
   font-size: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1650px) {
   .portfolio__homePage_about h2 {
     font-size: 40px;
   }
@@ -76,12 +92,34 @@
 
   .portfolio__homePage_skills {
     text-align: center;
+    flex-direction: column;
+    display: flex;
   }
   .portfolio__homePage_skills-list {
     padding: 0;
   }
 
-  .portfolio__homePage_skills h2 {
+  .portfolio__homePage_skills h1 {
     font-size: 30px;
+  }
+
+  .portfolio__homePage_skills .portfolio__homePage_skills-list {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .portfolio__homePage_skills-list div {
+    margin: 2rem;
+    text-align: center;
+  }
+
+  .portfolio__homePage_skills-list div svg {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .portfolio__homePage_skills-list span {
+    font-size: 20px;
   }
 }
