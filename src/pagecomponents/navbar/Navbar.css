@@ -28,13 +28,13 @@
 }
 .portfolio__navbar_toggleButton svg {
   font-size: 50px;
-  fill: var(--secondary-bg);
+  fill: var(--secondary-text);
 }
 .portfolio__navbar_toggleButton button {
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: white;
+  color: var(--secondary-text);
   cursor: pointer;
 }
 
@@ -53,7 +53,7 @@
 }
 @media only screen and (max-width: 900px) {
   .portfolio__navbar a {
-    width: 70px;
+    margin: 1vh;
   }
 }
 
