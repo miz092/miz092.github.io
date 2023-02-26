@@ -1,5 +1,5 @@
 import React from "react";
-import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsInstagram, BsGithub, BsLinkedin, BsDiscord } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import "./footer.css";
 function Footer() {
@@ -10,6 +10,7 @@ function Footer() {
         <BsInstagram />
         <BsLinkedin />
         <MdEmail />
+        <BsDiscord />
       </div>
       <p>&copy; 2023 Mi Zo</p>
     </div>
