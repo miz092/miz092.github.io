@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { color } from "@mui/system";
+import { FaRegQuestionCircle, FaAirbnb, FaMapMarkedAlt } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";
 
 function Experience() {
