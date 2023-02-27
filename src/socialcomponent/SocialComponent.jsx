@@ -6,11 +6,7 @@ function SocialComponent() {
   return (
     <div className="portfolio__socialComponent">
       {" "}
-      <BsGithub />
-      <MdEmail />
-      <BsLinkedin />
-      <BsDiscord />
-      <BsInstagram />
+      <a href="https://github.com/miz092" target="_blank">
     </div>
   );
 }
