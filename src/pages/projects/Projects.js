@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectPreview from "../../pagecomponents/projectpreview/ProjectPreview";
-import { ProjectList } from "../../data/DataProvider.jsx";
+import { ProjectList } from "../../data/DataProvider.js";
 import "./Projects.css";
 
 function Projects() {
