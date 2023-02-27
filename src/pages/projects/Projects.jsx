@@ -11,6 +11,13 @@ function Projects() {
         {ProjectList.map((project, index) => {
           return (
             <div>
+              {" "}
+              <ProjectPreview
+                id={index}
+                name={project.name}
+                image={project.image}
+              />
+            </div>
           );
         })}
       </div>

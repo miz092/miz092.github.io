@@ -8,4 +8,23 @@ export const ProjectList = [
     skills: "React, JS, CSS, API",
   },
   {
+    name: "Business landing page",
+    image: moviePic,
+    skills: "React, CSS",
+  },
+  {
+    name: "Business landing page",
+    image: moviePic,
+    skills: "React, CSS",
+  },
+  {
+    name: "Business landing page",
+    image: moviePic,
+    skills: "React, CSS",
+  },
+  {
+    name: "Business landing page",
+    image: moviePic,
+    skills: "React, CSS",
+  },
 ];

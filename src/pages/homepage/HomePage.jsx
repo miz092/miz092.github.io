@@ -27,10 +27,10 @@ function HomePage() {
       <div className="portfolio__homePage_about">
         <h1> Hi, my name is Zoltán.</h1>
         <div className="portfolio__homePage_about-prompt">
-          <p>
+          <h3>
             A wanna-be software developer with a passion for learning and
             creating.
-          </p>
+          </h3>
           <SocialComponent></SocialComponent>
         </div>
       </div>

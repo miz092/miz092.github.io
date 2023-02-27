@@ -3,18 +3,21 @@
   width: 450px;
   height: 300px;
   margin: 40px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
   text-align: center;
   color: var(--secondary-text);
+  background-color: var(--secondary-footer);
+  transition: transform 0.2s ease-in-out;
 }
 .portfolio__projectPreview:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 1.5);
   transition: 0.3s ease-in;
   cursor: pointer;
+  transform: scale(1.03);
 }
 .portfolio__projectPreview .portfolio__projectPreview_bgImg {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   width: 100%;
   height: 200px;
   background-position: center;
