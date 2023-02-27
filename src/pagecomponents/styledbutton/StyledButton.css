@@ -10,6 +10,7 @@
     var(--secondary-text) 50%,
     #e9c46a 50%
   );
+  transition: transform 0.2s ease-in-out;
   background-position: 25%;
   background-size: 400%;
   border-radius: 5px;
