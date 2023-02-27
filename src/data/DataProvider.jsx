@@ -7,4 +7,5 @@ export const ProjectList = [
     image: moviePic,
     skills: "React, JS, CSS, API",
   },
+  {
 ];
