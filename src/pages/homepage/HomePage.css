@@ -16,7 +16,7 @@
   background-color: var(--secondary-bg);
   color: var(--secondary-text);
 }
-.portfolio__homePage_about h2 {
+.portfolio__homePage_about h1 {
   font-family: var(--font-family);
   font-size: 80px;
   color: var(--secondary-footer);
