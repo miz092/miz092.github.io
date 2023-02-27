@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
   color: var(--secondary-text);
   font-size: 50px;
