@@ -10,11 +10,7 @@ function Projects() {
       <div className="portfolio__projects_projectList">
         {ProjectList.map((project, index) => {
           return (
-            <ProjectPreview
-              id={index}
-              name={project.name}
-              image={project.image}
-            />
+            <div>
           );
         })}
       </div>
