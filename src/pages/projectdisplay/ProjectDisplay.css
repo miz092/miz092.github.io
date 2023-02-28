@@ -5,24 +5,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: var(--secondary-subtext);
 }
 
 .portfolio__projectDisplay h1 {
-  margin-top: 50px;
-  color: #3e497a;
-  font-size: 35px;
+  margin: 2rem;
+
+  font-size: 30px;
 }
 .portfolio__projectDisplay img {
-  width: 700px;
+  max-width: 700px;
   border-radius: 10px;
 }
 
 .portfolio__projectDisplay p {
-  font-size: 40px;
-  color: #3e497a;
+  font-size: 30px;
 }
 
 .portfolio__projectDisplay svg {
   font-size: 60px;
-  color: #3e497a;
+}
+
+@media only screen and (max-width: 700px) {
+  .portfolio__projectDisplay {
+  }
 }

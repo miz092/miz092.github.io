@@ -9,13 +9,21 @@
   text-align: center;
   color: var(--secondary-text);
   font-size: 35px;
-  font-weight: bolder;
+
   text-shadow: black 2px 3px;
 }
 .portfolio__projects_projectList {
   display: flex;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 4rem;
+}
+@media only screen and (max-width: 700px) {
+  .portfolio__projects_projectList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

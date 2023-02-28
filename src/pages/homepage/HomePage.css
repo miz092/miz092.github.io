@@ -10,7 +10,7 @@
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: var(--secondary-bg);
@@ -25,12 +25,16 @@
 }
 
 .portfolio__homePage_about .portfolio__homePage_about-prompt {
-  width: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 30px;
 }
 .portfolio__homePage_about-prompt svg {
-  font-size: 60px;
-  margin: 5px;
+  font-size: 50px;
+  margin: 2px;
   color: var(--secondary-text);
   cursor: pointer;
 }
@@ -49,11 +53,24 @@
   width: 100%;
   font-size: 35px;
   display: flex;
+  /* background: ; */
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(
+      var(--secondary-footer) 0.8500000000000001px,
+      transparent 0.8500000000000001px
+    ),
+    radial-gradient(
+      var(--secondary-accent) 0.8500000000000001px,
+      var(--secondary-text) 0.8500000000000001px
+    );
+  background-size: 34px 34px;
+  background-position: 0 0, 17px 17px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  color: var(--secondary-text);
+  color: var(--secondary-bg);
   overflow-x: hidden;
 }
 
@@ -70,7 +87,7 @@
 }
 
 .portfolio__homePage_skills-list div {
-  margin: 4rem;
+  margin: 2rem;
   text-align: center;
   display: flex;
   position: relative;
@@ -82,7 +99,14 @@
 
 @media only screen and (max-width: 1650px) {
   .portfolio__homePage_about h2 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+
+  .portfolio__homePage_about h1 {
+    height: 30vh;
+  }
+  .portfolio__homePage_about h3 {
+    margin-bottom: 4rem;
   }
 
   .portfolio__homePage_about .portfolio__homePage_about-prompt {
