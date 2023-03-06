@@ -47,15 +47,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
   #bg-video1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150vh;
-    object-fit: cover;
-    z-index: -1;
+    display: none;
   }
 }
