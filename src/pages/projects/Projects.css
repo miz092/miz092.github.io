@@ -42,6 +42,29 @@
   z-index: -1;
 }
 @media only screen and (max-width: 700px) {
+  .portfolio__projects {
+    background: hsla(240, 2%, 25%, 1);
+
+    background: linear-gradient(
+      90deg,
+      hsla(240, 2%, 25%, 1) 0%,
+      hsla(60, 22%, 30%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(240, 2%, 25%, 1) 0%,
+      hsla(60, 22%, 30%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(240, 2%, 25%, 1) 0%,
+      hsla(60, 22%, 30%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3f3f42", endColorstr="#5d5d3c", GradientType=1 );
+  }
   .portfolio__projects_projectList {
     display: flex;
     flex-direction: row;
