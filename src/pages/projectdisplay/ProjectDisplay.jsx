@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectList } from "../../data/DataProvider";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, Bs0Circle } from "react-icons/bs";
 import "./ProjectDisplay.css";
 import { useParams } from "react-router-dom";
 import spaceVideo from "../../assets/space-7983.mp4";

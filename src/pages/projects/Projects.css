@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   text-align: center;
   color: var(--secondary-text);
-  font-size: 35px;
+  font-size: 34px;
   z-index: 0;
 
   animation: fadeInAnimation ease 3s;

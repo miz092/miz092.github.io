@@ -90,10 +90,11 @@
 
 .portfolio__homePage_skills {
   width: 80%;
+  height: 100%;
   font-size: 35px;
   display: flex;
   opacity: 0.8;
-  padding: 0.5em;
+
   margin: 1em;
   background: rgb(255, 255, 255);
   background: radial-gradient(
@@ -195,7 +196,7 @@
 
   .portfolio__homePage_about h4 {
     margin-bottom: -1rem;
-    font-size: 25px;
+    font-size: 24px;
     width: 90%;
   }
 

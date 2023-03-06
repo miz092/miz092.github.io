@@ -16,10 +16,6 @@
   height: 120vh;
   object-fit: cover;
   z-index: 0;
-  /* left: 0;
-  top: 0;
-  position: fixed;
-  width: 100%; */
 }
 .portfolio__projectDisplay h1 {
   margin: 2rem;

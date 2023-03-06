@@ -7,7 +7,7 @@ import spaceVideo from "../../assets/space-7983.mp4";
 function Projects() {
   return (
     <div className="portfolio__projects">
-      <h2> My Personal Projects</h2>
+      <h2> My personal projects</h2>
       <div className="portfolio__projects_projectList">
         <video id="bg-video1" autoPlay loop muted>
           <source src={spaceVideo} type="video/mp4" />
