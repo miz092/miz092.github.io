@@ -1,6 +1,7 @@
 //import pictures
 import moviePic from "../assets/movie.png";
-import landingpage from "../assets/Tasktiger.png";
+import landingpage from "../assets/tasktiger.png";
+import uml from "../assets/src.png";
 
 export const ProjectList = [
   {
