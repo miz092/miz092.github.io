@@ -1,0 +1,28 @@
+.portfolio__footer {
+  width: 100%;
+  height: 180px;
+  background: var(--secondary-footer);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color: var(--secondary-text);
+  z-index: 2;
+}
+
+.portfolio__footer_socialMedia svg {
+  margin: 20px;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.portfolio__footer p {
+  color: white;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 710px) {
+  .portfolio__footer svg {
+    display: none;
+  }
+}
