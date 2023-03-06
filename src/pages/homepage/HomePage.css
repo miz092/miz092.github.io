@@ -52,8 +52,8 @@
 
 .portfolio__homePage_about h1 {
   font-family: var(--font-family);
-  font-size: 80px;
-  line-height: 90px;
+  font-size: 60px;
+  line-height: 80px;
   color: white;
   display: flex;
 }
@@ -65,7 +65,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 30px;
   z-index: 1;
 }
 
@@ -90,10 +90,11 @@
 
 .portfolio__homePage_skills {
   width: 80%;
+  height: 100%;
   font-size: 35px;
   display: flex;
   opacity: 0.8;
-  padding: 0.5em;
+
   margin: 1em;
   background: rgb(255, 255, 255);
   background: radial-gradient(
