@@ -202,7 +202,7 @@
     display: none;
   }
   .portfolio__projectDisplay img {
-    max-width: 45em;
+    max-width: auto;
     border-radius: 10px;
     z-index: 1;
     max-height: 20em;
