@@ -3,5 +3,24 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+<<<<<<< HEAD
   margin: 1rem;
+=======
+  padding: 1em;
+  /* border-radius: 10px;
+  background-color: rgba(52, 52, 33, 0.5); */
+}
+.portfolio__socialComponent a:hover {
+  transform: scale(1.25);
+  transition: transform 0.4s ease-out;
+}
+@media only screen and (max-width: 400px) {
+  .portfolio__socialComponent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5em;
+  }
+>>>>>>> 6df9ae6659cf72b5e3b79b79cac248ecb68e59de
 }

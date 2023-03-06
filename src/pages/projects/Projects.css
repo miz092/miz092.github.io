@@ -8,7 +8,12 @@
   flex-wrap: wrap;
   text-align: center;
   color: var(--secondary-text);
+<<<<<<< HEAD
   font-size: 35px;
+=======
+  font-size: 34px;
+  z-index: 0;
+>>>>>>> 6df9ae6659cf72b5e3b79b79cac248ecb68e59de
 
   text-shadow: black 2px 3px;
 }

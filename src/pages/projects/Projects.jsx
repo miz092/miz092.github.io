@@ -6,7 +6,7 @@ import "./Projects.css";
 function Projects() {
   return (
     <div className="portfolio__projects">
-      <h2> My Personal Projects</h2>
+      <h2> My personal projects</h2>
       <div className="portfolio__projects_projectList">
         {ProjectList.map((project, index) => {
           return (

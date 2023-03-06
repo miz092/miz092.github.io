@@ -6,6 +6,19 @@
   align-items: center;
   flex-direction: column;
   color: var(--secondary-subtext);
+<<<<<<< HEAD
+=======
+  z-index: 1;
+}
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+  object-fit: cover;
+  z-index: 0;
+>>>>>>> 6df9ae6659cf72b5e3b79b79cac248ecb68e59de
 }
 
 .portfolio__projectDisplay h1 {

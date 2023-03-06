@@ -9,7 +9,7 @@ import {
   SiPostgresql,
   SiSpringboot,
 } from "react-icons/si";
-import { RiTeamFill } from "react-icons/ri";
+import { RiTeamFill, Ri24HoursFill } from "react-icons/ri";
 import { GiMaze } from "react-icons/gi";
 import { DiJavascript1 } from "react-icons/di";
 import { HiPresentationChartLine, HiLightBulb } from "react-icons/hi";

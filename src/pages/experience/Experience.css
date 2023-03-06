@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+=======
+.portfolio__experience {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  font-size: 23px;
+}
+>>>>>>> 6df9ae6659cf72b5e3b79b79cac248ecb68e59de
