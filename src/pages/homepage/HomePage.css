@@ -73,18 +73,34 @@
   display: flex;
   opacity: 0.8;
   margin: 1em;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.8) 0%,
-    rgba(80, 76, 17, 1) 110%
+  background: hsla(240, 2%, 25%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(240, 2%, 25%, 1) 0%,
+    hsla(60, 22%, 30%, 1) 100%
   );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(240, 2%, 25%, 1) 0%,
+    hsla(60, 22%, 30%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(240, 2%, 25%, 1) 0%,
+    hsla(60, 22%, 30%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3f3f42", endColorstr="#5d5d3c", GradientType=1 );
   flex-wrap: wrap;
   flex-direction: column;
   border-radius: 5px;
-  text-shadow: black 1px 1px 1px;
+  box-shadow: 2px 3px 3px black;
   justify-content: space-evenly;
   align-items: center;
-  color: #1b1b1e;
+  color: var(--secondary-text);
   overflow-x: hidden;
 }
 
@@ -99,7 +115,11 @@
   width: 70px;
   height: 70px;
 }
+.portfolio__homePage_skills-list_item div:hover {
+  transform: scale(1.25);
 
+  transition: transform 0.4s ease-in-out;
+}
 .portfolio__homePage_skills-list {
   display: flex;
   flex-direction: row;
