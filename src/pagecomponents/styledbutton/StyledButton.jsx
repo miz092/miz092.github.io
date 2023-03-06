@@ -2,7 +2,7 @@ import React from "react";
 import "./StyledButton.css";
 function StyledButton({ text }) {
   return (
-    <div href="#" className="btn">
+    <div href="#" className="styledButton">
       {text}
     </div>
   );

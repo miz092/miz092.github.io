@@ -1,6 +1,6 @@
 import React from "react";
 import { BsInstagram, BsGithub, BsLinkedin, BsDiscord } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, Md10Mp } from "react-icons/md";
 import "./SocialComponent.css";
 function SocialComponent() {
   return (
