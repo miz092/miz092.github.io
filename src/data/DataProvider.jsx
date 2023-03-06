@@ -1,6 +1,7 @@
 //import pictures
 import moviePic from "../assets/movie.png";
 import landingpage from "../assets/Tasktiger.png";
+import uml from "../assets/src.png";
 
 export const ProjectList = [
   {
@@ -18,18 +19,8 @@ export const ProjectList = [
     skills: "React, CSS",
   },
   {
-    name: "Business landing page",
-    image: moviePic,
-    skills: "React, CSS",
-  },
-  {
-    name: "Business landing page",
-    image: moviePic,
-    skills: "React, CSS",
-  },
-  {
-    name: "Business landing page",
-    image: moviePic,
-    skills: "React, CSS",
+    name: "Backend for handyman finder app",
+    image: uml,
+    skills: "Spring, JPA",
   },
 ];

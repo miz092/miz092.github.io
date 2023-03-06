@@ -18,10 +18,6 @@ function SocialComponent() {
         {" "}
         <BsLinkedin />
       </a>
-      <a>
-        {" "}
-        <BsDiscord />
-      </a>
       <a href="https://www.instagram.com/_m_i_z_o_/" target="blank">
         {" "}
         <BsInstagram />

@@ -1,6 +1,6 @@
 .App {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
   font-family: var(--font-family);
@@ -11,23 +11,9 @@ body {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
-@media screen and (max-width: 700px) {
-  .section__padding {
-    padding: 4rem;
-  }
-  .section__margin {
-    margin: 4rem;
-  }
-}
-@media screen and (max-width: 550px) {
-  .section__padding {
-    padding: 4rem 2rem;
-  }
-  .section__margin {
-    margin: 4rem 2rem;
-  }
-}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
