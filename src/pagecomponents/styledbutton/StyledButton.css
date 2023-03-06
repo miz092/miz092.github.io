@@ -1,4 +1,4 @@
-.btn {
+.styledButton {
   font-size: 1.3em;
   padding: 0.6em 2.3em;
   color: #f4f4f4;
@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
   width: 200px;
-  background-color: rgba(0, 0, 0, 0.117);
+  background-color: rgba(0, 0, 0, 0.116);
   justify-content: center;
   text-align: center;
   -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;

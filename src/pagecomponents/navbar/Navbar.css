@@ -7,7 +7,7 @@
   transition: all 0.3s ease;
 }
 .portfolio__navbar:hover {
-  background-color: rgba(51, 53, 51, 0.2);
+  background-color: rgba(51, 53, 50, 0.2);
   position: relative;
   z-index: 2;
   transition: all 0.3s ease;

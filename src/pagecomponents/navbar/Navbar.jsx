@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ReorderTwoTone } from "@mui/icons-material";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import StyledButton from "../styledbutton/StyledButton";
 import "./Navbar.css";
 function Navbar() {

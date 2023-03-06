@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useActionData } from "react-router-dom";
 import "./ProjectPreview.css";
 function ProjectPreview({ image, name, id }) {
   const navigate = useNavigate();
