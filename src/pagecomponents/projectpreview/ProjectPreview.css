@@ -11,6 +11,7 @@
   -webkit-backdrop-filter: blur(30px) saturate(180%);
   transition: transform 0.2s ease-in-out;
 }
+
 .portfolio__projectPreview:hover {
   transition: 0.3s ease-in;
   cursor: pointer;
@@ -26,9 +27,8 @@
   background-size: cover;
 }
 .portfolio__projectPreview h1 {
-  height: 2em;
   font-size: 25px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0);
   line-height: 40px;
   backdrop-filter: blur(40px) saturate(180%);
   -webkit-backdrop-filter: blur(30px) saturate(180%);
@@ -37,7 +37,39 @@
 @media only screen and (max-width: 700px) {
   .portfolio__projectPreview {
     border-radius: 5px;
-    width: 275px;
+    width: 30rem;
     max-height: 400px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .portfolio__projectPreview {
+    border-radius: 5px;
+    width: 20rem;
+    max-height: 400px;
+    margin: 1rem;
+  }
+  .portfolio__projectPreview h1 {
+    height: 2em;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    line-height: 40px;
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
+  }
+}
+@media only screen and (max-height: 500px) {
+  .portfolio__projectPreview {
+    border-radius: 5px;
+    width: 20rem;
+    max-height: 400px;
+    margin: 1rem;
+  }
+  .portfolio__projectPreview h1 {
+    height: 2em;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0);
+    line-height: 40px;
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
   }
 }

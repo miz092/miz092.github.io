@@ -15,7 +15,7 @@
   padding-left: 0.5em;
   text-align: center;
   text-align: left;
-  color: white;
+  color: var(--secondary-text);
   position: relative;
   white-space: nowrap;
   width: 8em;
@@ -119,5 +119,30 @@
   #hello:after {
     content: "";
     animation: spin 10s linear infinite 1s;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .portfolio__styledTitle_container {
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    line-height: 1.16em;
+    width: 100%;
+    width: 100%;
+    position: relative;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hello {
+    padding-left: 0.5em;
+    text-align: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    white-space: nowrap;
+    width: 8em;
+    animation: pulse 2s linear infinite;
   }
 }

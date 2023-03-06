@@ -9,12 +9,31 @@
   flex-wrap: wrap;
   text-align: center;
   color: var(--secondary-text);
-  font-size: 34px;
+
   z-index: 1;
 
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+.portfolio__projects h2 {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  padding: 2rem;
+  font-size: 50px;
+  background-color: rgba(red, green, blue, 0);
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes fadeInAnimation {
   0% {
@@ -70,9 +89,68 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
 
+  #bg-video1 {
+    display: none;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .portfolio__projects {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    animation: fadeInAnimation ease 3s forwards;
+    background: linear-gradient(270deg, #001d3d, #003566, #ffc300, #ffd60a);
+    background-size: 800% 800%;
+    z-index: 0;
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+  }
+  .portfolio__projects_projectList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+  }
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 32% 0%;
+    }
+    50% {
+      background-position: 69% 100%;
+    }
+    100% {
+      background-position: 32% 0%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 32% 0%;
+    }
+    50% {
+      background-position: 69% 100%;
+    }
+    100% {
+      background-position: 32% 0%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 32% 0%;
+    }
+    50% {
+      background-position: 69% 100%;
+    }
+    100% {
+      background-position: 32% 0%;
+    }
+  }
   #bg-video1 {
     display: none;
   }
