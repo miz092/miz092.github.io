@@ -30,7 +30,7 @@ function HomePage() {
     <>
       <div className="portfolio__homePage">
         <div className="portfolio__homePage_about">
-          <video id="bg-video" autoPlay loop muted>
+          <video id="bg-video" autoPlay playsinline loop muted>
             <source src={spaceVideo} type="video/mp4" />
           </video>
 
