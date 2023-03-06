@@ -12,6 +12,7 @@
   background-color: rgba(0, 0, 0, 0.116);
   justify-content: center;
   text-align: center;
+
   -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
   transition: ease-in-out 300ms, box-shadow 300ms ease-in-out;
 }
