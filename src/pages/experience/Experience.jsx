@@ -16,7 +16,7 @@ import spaceVideo from "../../assets/space-7983.mp4";
 function Experience() {
   return (
     <div className="portfolio__experience">
-      <video id="bg-video1" autoPlay loop muted>
+      <video id="bg-video_exp" autoPlay loop muted>
         <source src={spaceVideo} type="video/mp4" />
       </video>
       <VerticalTimeline lineColor="#006d77">
