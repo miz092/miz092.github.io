@@ -7,13 +7,10 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaRegQuestionCircle, FaAirbnb, FaMapMarkedAlt } from "react-icons/fa";
 import { MdSchool, MdWork } from "react-icons/md";
-import spaceVideo from "../../assets/space-7983.mp4";
+
 function Experience() {
   return (
     <div className="portfolio__experience">
-      <video id="bg-video1" autoPlay loop muted>
-        <source src={spaceVideo} type="video/mp4" />
-      </video>
       <VerticalTimeline lineColor="#006d77">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
