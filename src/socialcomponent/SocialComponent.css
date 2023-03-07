@@ -4,8 +4,6 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 1em;
-  /* border-radius: 10px;
-  background-color: rgba(52, 52, 33, 0.5); */
 }
 .portfolio__socialComponent a:hover {
   transform: scale(1.25);
@@ -18,5 +16,12 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 0.5em;
+    height: 25px;
+    width: 25px;
+  }
+  .portfolio__socialComponent svg {
+    padding: 1rem;
+    height: 40px;
+    width: 40px;
   }
 }
