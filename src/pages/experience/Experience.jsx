@@ -122,7 +122,7 @@ function Experience() {
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
-          date="2012"
+          date="2022"
           iconStyle={{ background: "#e9c46a", color: "#fff" }}
           icon={<MdSchool></MdSchool>}
         >
