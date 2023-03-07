@@ -115,3 +115,8 @@
     flex-direction: row;
   }
 }
+@media only screen and (max-height: 500px) {
+  #open {
+    height: 100vh;
+  }
+}
