@@ -77,7 +77,8 @@
 }
 #open a {
   width: 100%;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
 }
 @media only screen and (max-width: 950px) {

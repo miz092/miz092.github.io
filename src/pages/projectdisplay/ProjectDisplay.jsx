@@ -9,7 +9,7 @@ function ProjectDisplay() {
   const project = ProjectList[id];
   return (
     <div className="portfolio__projectDisplay">
-      <video id="bg-video" autoPlay playsinline loop muted>
+      <video id="bg-video" autoPlay playsInline loop muted>
         <source src={spaceVideo} type="video/mp4" />
       </video>
       <h1> {project.name}</h1>

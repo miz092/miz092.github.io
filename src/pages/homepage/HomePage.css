@@ -260,6 +260,8 @@
     margin-bottom: -1em;
     font-size: 20px;
     width: 95%;
+    line-height: 25px;
+    letter-spacing: 1px;
   }
   .portfolio__homePage_skills {
     overflow: hidden;

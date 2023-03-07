@@ -1,6 +1,6 @@
 .portfolio__projects {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   text-align: center;
   color: var(--secondary-text);
-
+  overflow: hidden;
   z-index: 1;
 
   animation: fadeInAnimation ease 3s;
@@ -46,10 +46,11 @@
 .portfolio__projects_projectList {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 #bg-video1 {
   position: absolute;
@@ -89,7 +90,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: scroll;
+    overflow: hidden;
   }
 
   #bg-video1 {

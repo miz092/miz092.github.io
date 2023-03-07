@@ -9,7 +9,7 @@ function Projects() {
     <div className="portfolio__projects">
       <h2> My personal projects</h2>
       <div className="portfolio__projects_projectList">
-        <video id="bg-video1" autoPlay playsinline loop muted>
+        <video id="bg-video1" autoPlay playsInline loop muted>
           <source src={spaceVideo} type="video/mp4" />
         </video>
         {ProjectList.map((project, index) => {

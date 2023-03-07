@@ -31,7 +31,7 @@ function HomePage() {
       <div className="portfolio__homePage">
         <div id="video-container"></div>
         <div className="portfolio__homePage_about">
-          <video id="bg-video" autoPlay playsinline loop muted>
+          <video id="bg-video" autoPlay playsInline loop muted>
             <source src={spaceVideo} type="video/mp4" />
           </video>
 
