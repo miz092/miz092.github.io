@@ -1,7 +1,8 @@
 .styledButton {
   font-size: 1.3em;
   padding: 0.6em 2.3em;
-  color: #f4f4f4;
+  display: flex;
+  color: var(--secondary-text);
   text-transform: capitalize;
   border-radius: 7px;
   position: relative;
