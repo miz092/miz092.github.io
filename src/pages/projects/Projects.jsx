@@ -16,7 +16,7 @@ function Projects() {
         <div className="portfolio__projects_projectList">
           {ProjectList.map((project, index) => {
             return (
-              <div>
+              <div key={index}>
                 {" "}
                 <ProjectPreview
                   id={index}
