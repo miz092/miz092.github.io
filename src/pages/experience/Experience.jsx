@@ -79,7 +79,7 @@ function Experience() {
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
-          date="2012"
+          date="2015-2018"
           iconStyle={{ background: "#e76f51", color: "#fff" }}
           icon={<FaMapMarkedAlt></FaMapMarkedAlt>}
         >
@@ -100,7 +100,7 @@ function Experience() {
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
-          date="2012"
+          date="2017-2021"
           iconStyle={{ background: "#e76f51", color: "#fff" }}
           icon={<MdWork></MdWork>}
         >
@@ -143,7 +143,7 @@ function Experience() {
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
-          date="2012"
+          date="2022"
           iconStyle={{ background: "#264653", color: "#fff" }}
           icon={<FaRegQuestionCircle></FaRegQuestionCircle>}
         >
