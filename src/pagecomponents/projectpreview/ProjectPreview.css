@@ -2,6 +2,8 @@
   border-radius: 5px;
   width: 450px;
   max-height: 400px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
   margin: 1rem;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -37,21 +39,21 @@
 @media only screen and (max-width: 700px) {
   .portfolio__projectPreview {
     border-radius: 5px;
-    width: 30rem;
+    max-width: calc(100vw - 40px);
     max-height: 400px;
   }
 }
 @media only screen and (max-width: 400px) {
   .portfolio__projectPreview {
     border-radius: 5px;
-    width: 20rem;
+    max-width: calc(100vw - 20px);
     max-height: 400px;
     margin: 1rem;
   }
   .portfolio__projectPreview h1 {
     height: 2em;
     font-size: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0);
     line-height: 40px;
     backdrop-filter: blur(40px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
@@ -62,6 +64,7 @@
     border-radius: 5px;
     width: 20rem;
     max-height: 400px;
+
     margin: 1rem;
   }
   .portfolio__projectPreview h1 {

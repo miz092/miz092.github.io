@@ -1,17 +1,17 @@
 .portfolio__projects {
   width: 100%;
   height: 100%;
-  height: auto;
+
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  text-align: center;
+
   color: var(--secondary-text);
   overflow: hidden;
   z-index: 1;
-
+  box-sizing: border-box;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -47,17 +47,18 @@
   display: flex;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
 }
 #bg-video1 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 120vh;
+  height: 100%;
   object-fit: cover;
   z-index: -1;
 }
