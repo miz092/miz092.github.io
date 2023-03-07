@@ -23,6 +23,8 @@
 .portfolio__homePage h4 {
   color: var(--secondary-text);
   padding: 2em;
+  line-height: 50px;
+  letter-spacing: 1.5px;
 }
 
 #bg-video {
