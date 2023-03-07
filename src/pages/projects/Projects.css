@@ -9,7 +9,7 @@
   color: var(--secondary-text);
   overflow: hidden;
   z-index: 1;
-  box-sizing: border-box;
+
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -19,6 +19,8 @@
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   padding: 2rem;
   font-size: 50px;
+
+  font-weight: bolder;
   background-color: rgba(red, green, blue, 0);
 }
 @keyframes tracking-in-expand {
@@ -59,43 +61,63 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  opacity: 0.3;
 }
 @media only screen and (max-width: 700px) {
   .portfolio__projects {
-    background: hsla(240, 2%, 25%, 1);
-
-    background: linear-gradient(
-      90deg,
-      hsla(240, 2%, 25%, 1) 0%,
-      hsla(60, 22%, 30%, 1) 100%
-    );
-
-    background: -moz-linear-gradient(
-      90deg,
-      hsla(240, 2%, 25%, 1) 0%,
-      hsla(60, 22%, 30%, 1) 100%
-    );
-
-    background: -webkit-linear-gradient(
-      90deg,
-      hsla(240, 2%, 25%, 1) 0%,
-      hsla(60, 22%, 30%, 1) 100%
-    );
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3f3f42", endColorstr="#5d5d3c", GradientType=1 );
+    background: linear-gradient(270deg, #001d3d, #003566, #ffc300, #ffd60a);
+    background-size: 800% 800%;
+    z-index: 0;
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
   }
-  .portfolio__projects_projectList {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 32% 0%;
+    }
+    50% {
+      background-position: 69% 100%;
+    }
+    100% {
+      background-position: 32% 0%;
+    }
   }
-
-  #bg-video1 {
-    display: none;
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 32% 0%;
+    }
+    50% {
+      background-position: 69% 100%;
+    }
+    100% {
+      background-position: 32% 0%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 32% 0%;
+    }
+    50% {
+      background-position: 69% 100%;
+    }
+    100% {
+      background-position: 32% 0%;
+    }
   }
 }
+.portfolio__projects_projectList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* #bg-video1 {
+  display: none;
+} */
+
 @media only screen and (max-height: 500px) {
   .portfolio__projects {
     width: 100%;

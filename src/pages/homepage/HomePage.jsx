@@ -2,7 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import SocialComponent from "../../socialcomponent/SocialComponent";
 import StyledTitle from "../../pagecomponents/stlyedtitle/StyledTitle";
-import spaceVideo from "../../assets/space-7982.mp4";
+import spaceVideo from "../../assets/space-7984.mp4";
 import {
   SiJavascript,
   SiMongodb,
@@ -11,7 +11,7 @@ import {
   SiPostgresql,
   SiSpringboot,
 } from "react-icons/si";
-import { RiTeamFill, Ri24HoursFill } from "react-icons/ri";
+import { RiTeamFill } from "react-icons/ri";
 import { GiMaze } from "react-icons/gi";
 import { DiJavascript1 } from "react-icons/di";
 import { HiPresentationChartLine, HiLightBulb } from "react-icons/hi";

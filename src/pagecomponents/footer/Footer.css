@@ -1,7 +1,25 @@
 .portfolio__footer {
   width: 100%;
   height: 180px;
-  background: var(--secondary-footer);
+  background: linear-gradient(
+    90deg,
+    hsla(240, 2%, 25%, 1) 0%,
+    hsla(60, 22%, 30%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(240, 2%, 25%, 1) 0%,
+    hsla(60, 22%, 30%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(240, 2%, 25%, 1) 0%,
+    hsla(60, 22%, 30%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3f3f42", endColorstr="#5d5d3c", GradientType=1 );
   display: flex;
   justify-content: space-between;
   justify-self: flex-end;

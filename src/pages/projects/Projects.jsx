@@ -2,7 +2,7 @@ import React from "react";
 import ProjectPreview from "../../pagecomponents/projectpreview/ProjectPreview";
 import { ProjectList } from "../../data/DataProvider.jsx";
 import "./Projects.css";
-import spaceVideo from "../../assets/space-7983.mp4";
+import spaceVideo from "../../assets/space-7984.mp4";
 
 function Projects() {
   return (

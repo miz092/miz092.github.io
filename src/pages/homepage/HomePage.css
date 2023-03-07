@@ -32,7 +32,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .portfolio__homePage_about {
@@ -74,7 +74,7 @@
 }
 
 .portfolio__homePage_skills {
-  width: 90%;
+  width: 80%;
   font-size: 35px;
   display: flex;
   opacity: 0.8;
@@ -214,6 +214,8 @@
 }
 @media only screen and (max-width: 700px) {
   .portfolio__homePage {
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
     background: linear-gradient(270deg, #001d3d, #003566, #ffc300, #ffd60a);
     background-size: 800% 800%;
     z-index: 0;

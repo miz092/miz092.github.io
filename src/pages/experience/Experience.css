@@ -2,8 +2,8 @@
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  font-size: 23px;
 }
+
 #bg-video_exp {
   position: fixed;
   top: 0;
@@ -12,6 +12,7 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  opacity: 0.5;
 }
 .vertical-timeline-element-date {
   font-size: 35px !important;
