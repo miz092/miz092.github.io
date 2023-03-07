@@ -21,6 +21,11 @@
     filter: blur(12px);
     opacity: 0;
   }
+  50% {
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+    opacity: 0.5;
+  }
   100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
@@ -32,6 +37,11 @@
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0;
+  }
+  50% {
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+    opacity: 0.5;
   }
   100% {
     -webkit-filter: blur(0px);
