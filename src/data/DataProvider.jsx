@@ -23,6 +23,8 @@ export const ProjectList = [
   {
     name: "Back-end for handyman finder app",
     image: uml,
+    description:
+      "Back-end implementation for an app where users can connect with 'taskers' in order to make reservations, and exchange messages.",
     skills: "Spring, JPA",
     url: "https://github.com/miz092/tasktiger-backend",
   },

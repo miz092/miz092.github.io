@@ -14,6 +14,12 @@ function ProjectDisplay() {
       </video>
       <h1> {project.name}</h1>
       <img src={project.image} />
+      <div className="portfolio__projectDisplay_description">
+        {" "}
+        <p>TL;DR:</p>
+        <p> {project.description}</p>
+      </div>
+
       <p>
         <b>Skills:</b> {project.skills}
       </p>
