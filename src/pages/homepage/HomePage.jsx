@@ -2,7 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import SocialComponent from "../../socialcomponent/SocialComponent";
 import StyledTitle from "../../pagecomponents/stlyedtitle/StyledTitle";
-import spaceVideo from "../../assets/space-7984.mp4";
+
 import {
   SiJavascript,
   SiMongodb,
@@ -30,10 +30,6 @@ function HomePage() {
     <>
       <div className="portfolio__homePage">
         <div className="portfolio__homePage_about">
-          <video id="bg-video" autoPlay playsInline loop muted>
-            <source src={spaceVideo} type="video/mp4" />
-          </video>
-
           <div className="portfolio__homePage_about-prompt">
             <div>
               {" "}

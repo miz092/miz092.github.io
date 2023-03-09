@@ -21,7 +21,7 @@ export const ProjectList = [
     url: "https://github.com/miz092/Landing-page",
   },
   {
-    name: "Back-end for handyman finder app",
+    name: "Back-end for handyman app",
     image: uml,
     description:
       "Back-end implementation for an app where users can connect with 'taskers' in order to make reservations, and exchange messages.",

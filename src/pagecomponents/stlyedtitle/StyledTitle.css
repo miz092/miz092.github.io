@@ -5,7 +5,7 @@
   font-size: 4rem;
   line-height: 1.5em;
   font-weight: 800;
-  top: 3rem;
+  top: 1rem;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -82,22 +82,22 @@
 
 @keyframes spin {
   0% {
-    content: "stranger.";
+    content: "world!";
   }
   20% {
-    content: " headhunter.";
+    content: " world!";
   }
   40% {
-    content: "future employer.";
+    content: "future employer!";
   }
   60% {
-    content: "mom.";
+    content: "mom!";
   }
   80% {
-    content: "old classmate.";
+    content: "old classmate!";
   }
   100% {
-    content: "stranger.";
+    content: "world!";
   }
 }
 
@@ -142,7 +142,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    font-size: 1.6em;
+    font-size: 1.2em;
     padding-top: 2em;
     line-height: 1.17;
     width: 100%;
@@ -163,7 +163,7 @@
   .portfolio__styledTitle_container {
     display: flex;
     flex-direction: row;
-    font-size: 2em;
+    font-size: 1.3em;
     line-height: 1.16em;
     width: 100%;
     width: 100%;

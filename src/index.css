@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@300&family=Poppins:wght@100&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat+Alternates&family=Montserrat:wght@300&family=Poppins:wght@100&family=Raleway:wght@300&display=swap");
 :root {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 
   --primary-bg: #006d77;
   --primary-footer: #83c5be;

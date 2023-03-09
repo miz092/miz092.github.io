@@ -11,9 +11,7 @@ function Footer() {
         <BsInstagram />
         <BsLinkedin />
         <MdEmail />
-        <BsDiscord />
       </div>
-      <p>&copy; 2023 Mi Zo</p>
     </div>
   );
 }

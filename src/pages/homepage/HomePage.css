@@ -22,17 +22,10 @@
 
 .portfolio__homePage h4 {
   color: var(--secondary-text);
+
   padding: 2em;
   line-height: 50px;
   letter-spacing: 1.5px;
-}
-
-#bg-video {
-  left: 0;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  opacity: 0.3;
 }
 
 .portfolio__homePage_about {
@@ -98,7 +91,6 @@
     hsla(60, 22%, 30%, 1) 100%
   );
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3f3f42", endColorstr="#5d5d3c", GradientType=1 );
   flex-wrap: wrap;
   flex-direction: column;
   border-radius: 5px;
@@ -212,51 +204,7 @@
     margin-bottom: 1rem;
   }
 }
-@media only screen and (max-width: 700px) {
-  .portfolio__homePage {
-    backdrop-filter: blur(40px) saturate(180%);
-    -webkit-backdrop-filter: blur(30px) saturate(180%);
-    background: linear-gradient(270deg, #001d3d, #003566, #ffc300, #ffd60a);
-    background-size: 800% 800%;
-    z-index: 0;
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
-  }
-  @-webkit-keyframes AnimationName {
-    0% {
-      background-position: 32% 0%;
-    }
-    50% {
-      background-position: 69% 100%;
-    }
-    100% {
-      background-position: 32% 0%;
-    }
-  }
-  @-moz-keyframes AnimationName {
-    0% {
-      background-position: 32% 0%;
-    }
-    50% {
-      background-position: 69% 100%;
-    }
-    100% {
-      background-position: 32% 0%;
-    }
-  }
-  @keyframes AnimationName {
-    0% {
-      background-position: 32% 0%;
-    }
-    50% {
-      background-position: 69% 100%;
-    }
-    100% {
-      background-position: 32% 0%;
-    }
-  }
-}
+
 @media only screen and (max-width: 400px) {
   .portfolio__homePage_about h1 {
     font-size: 30px;

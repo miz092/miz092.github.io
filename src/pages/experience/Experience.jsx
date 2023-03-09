@@ -7,24 +7,20 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaRegQuestionCircle, FaAirbnb, FaMapMarkedAlt } from "react-icons/fa";
 import { MdSchool, MdWork } from "react-icons/md";
-import spaceVideo from "../../assets/space-7984.mp4";
+
 function Experience() {
   return (
     <div className="portfolio__experience">
-      <video id="bg-video_exp" autoPlay playsInline loop muted>
-        <source src={spaceVideo} type="video/mp4" />
-      </video>
-
       <VerticalTimeline lineColor="#fca311">
         <VerticalTimelineElement
           contentStyle={{
-            background: "#001219",
+            background: "#ffc300",
             color: "#fff",
           }}
           id="timeLineFont"
           className="vertical-timeline-element--education"
           date="2012"
-          iconStyle={{ background: "#001219", color: "#fff" }}
+          iconStyle={{ background: "#ffc300", color: "#fff" }}
           icon={<MdSchool></MdSchool>}
         >
           <h3 className="vertical-timeline-element--title">
@@ -36,13 +32,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{
-            background: "#005f73",
+            background: "#ffb700",
             color: "#fff",
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
           date="2013 - 2015"
-          iconStyle={{ background: "#005f73", color: "#fff" }}
+          iconStyle={{ background: "#ffb700", color: "#fff" }}
           icon={<MdSchool></MdSchool>}
         >
           <h3 className="vertical-timeline-element--title">PPKE</h3>
@@ -54,13 +50,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{
-            background: "#0a9396",
+            background: "#ffaa00",
             color: "#fff",
             fontSize: 25,
           }}
           className="vertical-timeline-element--work"
           date="2015 - 2020"
-          iconStyle={{ background: "#0a9396", color: "#fff" }}
+          iconStyle={{ background: "#ffaa00", color: "#fff" }}
           icon={<FaAirbnb></FaAirbnb>}
         >
           <h3 className="vertical-timeline-element--title">AirBnb journey</h3>
@@ -75,13 +71,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{
-            background: "#ee9b00",
+            background: "#ffa200",
             color: "#fff",
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
           date="2015-2018"
-          iconStyle={{ background: "#ee9b00", color: "#fff" }}
+          iconStyle={{ background: "#ffa200", color: "#fff" }}
           icon={<FaMapMarkedAlt></FaMapMarkedAlt>}
         >
           <h3 className="vertical-timeline-element--title">
@@ -96,13 +92,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{
-            background: "#ca6702",
+            background: "#ff9500",
             color: "#fff",
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
           date="2017-2021"
-          iconStyle={{ background: "#ca6702", color: "#fff" }}
+          iconStyle={{ background: "#ff9500", color: "#fff" }}
           icon={<MdWork></MdWork>}
         >
           <h3 className="vertical-timeline-element--title">Back to school?</h3>
@@ -118,13 +114,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{
-            background: "#ae2012",
+            background: "#ff8800",
             color: "#fff",
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
           date="2022"
-          iconStyle={{ background: "#ae2012", color: "#fff" }}
+          iconStyle={{ background: "#ff8800", color: "#fff" }}
           icon={<MdSchool></MdSchool>}
         >
           <h3 className="vertical-timeline-element--title"></h3>
@@ -139,13 +135,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{
-            background: "#9b2226",
+            background: "#ff7b00",
             color: "#fff",
             fontSize: 25,
           }}
           className="vertical-timeline-element--education"
           date="2023 -"
-          iconStyle={{ background: "#9b2226", color: "#fff" }}
+          iconStyle={{ background: "#ff7b00", color: "#fff" }}
           icon={<FaRegQuestionCircle></FaRegQuestionCircle>}
         >
           <h3 className="vertical-timeline-element--title">What's next?</h3>

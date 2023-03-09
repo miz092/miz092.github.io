@@ -1,32 +1,28 @@
 .styledButton {
   --color-secondary-text: #888; /* Define a CSS variable for secondary text color */
 
-  /* Box model */
-  width: 200px;
+  width: 220px;
   padding: 0.6em 2.3em;
   border-radius: 7px;
   overflow: hidden;
   position: relative;
 
-  /* Typography */
-  font-size: 1.3em;
+  font-size: 0.8em;
   font-weight: 500;
   text-transform: capitalize;
   text-align: center;
 
-  /* Visual */
   background-color: transparent;
-  color: var(--color-secondary-text);
+
   cursor: pointer;
   border: none;
   z-index: 2;
+  color: var(--secondary-text);
 
-  /* Flexbox */
   display: flex;
   justify-content: center;
   align-items: center;
 
-  /* Transitions */
   transition: color 400ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 

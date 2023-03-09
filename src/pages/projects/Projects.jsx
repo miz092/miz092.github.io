@@ -2,16 +2,12 @@ import React from "react";
 import ProjectPreview from "../../pagecomponents/projectpreview/ProjectPreview";
 import { ProjectList } from "../../data/DataProvider.jsx";
 import "./Projects.css";
-import spaceVideo from "../../assets/space-7984.mp4";
 
 function Projects() {
   return (
     <>
       {" "}
       <div className="portfolio__projects">
-        <video id="bg-video1" autoPlay playsInline loop muted>
-          <source src={spaceVideo} type="video/mp4" />
-        </video>
         <h2> My personal projects</h2>
         <div className="portfolio__projects_projectList">
           {ProjectList.map((project, index) => {

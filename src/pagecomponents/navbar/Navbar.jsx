@@ -27,6 +27,11 @@ function Navbar() {
           {" "}
           <StyledButton text={"home"}> </StyledButton>{" "}
         </Link>
+
+        <Link to={"/about"}>
+          {" "}
+          <StyledButton text={"about"}> </StyledButton>{" "}
+        </Link>
         <Link to={"/projects"}>
           {" "}
           <StyledButton text={"projects"}> </StyledButton>

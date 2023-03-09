@@ -1,0 +1,37 @@
+.portfolio__about {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  z-index: 2;
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+}
+.portfolio__about_json {
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+}
+@media only screen and (max-width: 1200px) {
+  .portfolio__about {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .portfolio__about {
+    font-size: 20px;
+  }
+  .portfolio__about_json {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  pre {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+}
