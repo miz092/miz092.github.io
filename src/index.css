@@ -4,13 +4,13 @@
 
   --primary-bg: #006d77;
   --primary-footer: #83c5be;
-  --primary-text: #ffffff;
+
   --primary-subtext: #eae2b7;
 
   --secondary-bg: #1b1b1e;
-  --secondary-accent: #d62828;
+
   --secondary-footer: #333533;
-  /* --secondary-text: #eae2b7; */
-  --secondary-text: #eae2b7;
+  /* --secondary-text: #fff; */
+  --secondary-text: ivory;
   --secondary-subtext: #fca311;
 }

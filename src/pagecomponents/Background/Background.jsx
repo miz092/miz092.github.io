@@ -21,7 +21,7 @@ function Background() {
           (currentIndex) => (currentIndex + 1) % videos.length
         );
         setShowVideo(true);
-      }, 500);
+      }, 1000);
     }, 5000);
 
     return () => clearInterval(intervalId);

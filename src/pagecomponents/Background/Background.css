@@ -9,15 +9,15 @@
 }
 
 #bg-video.show {
-  opacity: 0.8;
-  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  opacity: 1;
+  -webkit-animation: fade-in 2.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 2.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 #bg-video.hide {
   opacity: 0;
-  -webkit-animation: fade-out 2s ease-out both;
-  animation: fade-out 2s ease-out both;
+  -webkit-animation: fade-out 2.5s ease-out both;
+  animation: fade-out 2.5s ease-out both;
 }
 
 @-webkit-keyframes fade-out {

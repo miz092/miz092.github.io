@@ -9,7 +9,16 @@
   border-radius: 8px;
   height: 100%;
   overflow: hidden;
+  animation: fadeInAnimation ease-in-out 1s forwards;
   font-family: "Courier New", Courier, monospace;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .portfolio__about_json {
   background: rgba(0, 0, 0, 0);
