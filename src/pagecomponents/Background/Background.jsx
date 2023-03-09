@@ -21,7 +21,7 @@ function Background() {
           (currentIndex) => (currentIndex + 1) % videos.length
         );
         setShowVideo(true);
-      }, 1000); // wait 2 seconds before showing the new video
+      }, 500);
     }, 5000);
 
     return () => clearInterval(intervalId);
@@ -38,8 +38,8 @@ function Background() {
         loop
         muted
         src={currentVideoSrc}
-        className={showVideo ? "show" : "hide"} // add class based on visibility state
-        onLoadedData={() => setShowVideo(true)} // show video when it has loaded
+        className={showVideo ? "show" : "hide"}
+        onLoadedData={() => setShowVideo(true)}
       />
     </div>
   );
