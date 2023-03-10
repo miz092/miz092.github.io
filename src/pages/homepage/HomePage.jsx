@@ -35,13 +35,17 @@ function HomePage() {
               {" "}
               <StyledTitle welcomeTo={guestArray} />
             </div>
-            <h4>
-              Thank you for visiting my portfolio site. Here, you can explore my
-              past projects and learn more about my experience with various
-              technologies and past work experiences. I hope you find the
-              information helpful in getting to know me better. Thanks again for
-              stopping by, and I look forward to hearing from you soon!{" "}
-            </h4>
+            <div className="retek">
+              {" "}
+              <h4>
+                Thank you for visiting my portfolio site. Here, you can explore
+                my past projects and learn more about my experience with various
+                technologies and past work experiences. I hope you find the
+                information helpful in getting to know me better. Thanks again
+                for stopping by, and I look forward to hearing from you soon!{" "}
+              </h4>
+            </div>
+
             <SocialComponent />
           </div>
         </div>

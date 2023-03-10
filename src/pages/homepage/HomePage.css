@@ -7,6 +7,7 @@
   color: var(--secondary-text);
   overflow-x: hidden;
   z-index: 1;
+
   flex-direction: column;
   animation: fadeInAnimation ease 3s forwards;
 }
@@ -22,6 +23,8 @@
 
 .portfolio__homePage h4 {
   color: var(--secondary-text);
+  width: 100%;
+  height: 100%;
 
   padding: 2em;
   line-height: 50px;
@@ -39,6 +42,7 @@
   color: white;
   flex-wrap: wrap;
   overflow: hidden;
+
   box-sizing: border-box;
 }
 
@@ -72,23 +76,22 @@
   display: flex;
   opacity: 0.8;
   margin: 1em;
-
   background: linear-gradient(
     90deg,
-    hsla(240, 2%, 25%, 1) 0%,
-    hsla(60, 22%, 30%, 1) 100%
+    hsla(215, 50%, 23%, 1) 0%,
+    hsla(240, 2%, 25%, 1) 100%
   );
 
   background: -moz-linear-gradient(
     90deg,
-    hsla(240, 2%, 25%, 1) 0%,
-    hsla(60, 22%, 30%, 1) 100%
+    hsla(215, 50%, 23%, 1) 0%,
+    hsla(240, 2%, 25%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
     90deg,
-    hsla(240, 2%, 25%, 1) 0%,
-    hsla(60, 22%, 30%, 1) 100%
+    hsla(215, 50%, 23%, 1) 0%,
+    hsla(240, 2%, 25%, 1) 100%
   );
 
   flex-wrap: wrap;
