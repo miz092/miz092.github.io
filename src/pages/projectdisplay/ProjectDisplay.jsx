@@ -12,7 +12,17 @@ function ProjectDisplay() {
       <h1> {project.name}</h1>
       <img src={project.image} />
       <div className="portfolio__projectDisplay_description">
-        {" "}
+        {project?.link ? (
+          <a
+            className="portfolio__projectDisplay_description_link"
+            href={project.link}
+            target="_blank"
+          >
+            Link to page
+          </a>
+        ) : (
+          ""
+        )}{" "}
         <p>TL;DR:</p>
         <p> {project.description}</p>
       </div>
