@@ -59,7 +59,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-weight: 200;
+  font-size: 25px;
   z-index: 1;
 }
 
@@ -72,7 +73,7 @@
 
 .portfolio__homePage_skills {
   width: 80%;
-  font-size: 35px;
+  font-size: 25px;
   display: flex;
   opacity: 0.8;
   margin: 1em;
