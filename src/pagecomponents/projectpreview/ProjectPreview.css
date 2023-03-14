@@ -8,10 +8,9 @@
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
   text-align: center;
   color: var(--secondary-text);
-  background: rgba(0, 0, 0, 0);
+  background-color: #457b9d;
   overflow: hidden;
-  backdrop-filter: blur(40px) saturate(180%);
-  -webkit-backdrop-filter: blur(30px) saturate(180%);
+
   transition: transform 0.4s ease-in-out;
 }
 
@@ -31,10 +30,8 @@
 }
 .portfolio__projectPreview h1 {
   font-size: 25px;
-  background: rgba(0, 0, 0, 0);
+  background-color: #457b9d;
   line-height: 40px;
-  backdrop-filter: blur(40px) saturate(180%);
-  -webkit-backdrop-filter: blur(30px) saturate(180%);
 }
 
 @media only screen and (max-width: 700px) {
@@ -54,10 +51,8 @@
   .portfolio__projectPreview h1 {
     height: 2em;
     font-size: 20px;
-    background: rgba(0, 0, 0, 0);
-    line-height: 40px;
-    backdrop-filter: blur(40px) saturate(180%);
-    -webkit-backdrop-filter: blur(30px) saturate(180%);
+
+    line-height: 30px;
   }
 }
 @media only screen and (max-height: 500px) {
@@ -71,9 +66,7 @@
   .portfolio__projectPreview h1 {
     height: 2em;
     font-size: 20px;
-    background: rgba(0, 0, 0, 0);
-    line-height: 40px;
-    backdrop-filter: blur(40px) saturate(180%);
-    -webkit-backdrop-filter: blur(30px) saturate(180%);
+
+    line-height: 30px;
   }
 }

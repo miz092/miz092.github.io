@@ -5,7 +5,7 @@
   flex-direction: column;
   font-size: 4rem;
   line-height: 5rem;
-  font-weight: 800;
+  font-weight: 400;
   top: 2rem;
   width: 100%;
 
@@ -15,91 +15,6 @@
   align-items: center;
   -webkit-animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  50% {
-    -webkit-filter: blur(6px);
-    filter: blur(6px);
-    opacity: 0.5;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-@keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  50% {
-    -webkit-filter: blur(6px);
-    filter: blur(6px);
-    opacity: 0.5;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-
-#hello {
-  text-align: center;
-
-  color: var(--secondary-text);
-  position: relative;
-  white-space: nowrap;
-  width: 8em;
-  animation: pulse 2s linear infinite;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-#hello:after {
-  content: "";
-  animation: spin 10s linear infinite 1s;
-}
-
-@keyframes spin {
-  0% {
-    content: "world!";
-  }
-  20% {
-    content: " stranger!";
-  }
-  40% {
-    content: "future employer!";
-  }
-  60% {
-    content: "mom!";
-  }
-  80% {
-    content: "old classmate!";
-  }
-  100% {
-    content: "world!";
-  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -169,19 +84,47 @@
     width: 100%;
     width: 100%;
     position: relative;
-    font-weight: 600;
+    font-weight: 200;
     justify-content: center;
     align-items: center;
   }
+}
 
-  #hello {
-    padding-left: 0.5em;
-    text-align: center;
-    text-align: left;
-    color: white;
-    position: relative;
-    white-space: nowrap;
-    width: 8em;
-    animation: pulse 2s linear infinite;
+.portfolio_svg {
+  font-family: var(--font-family);
+  position: relative;
+  width: 100%;
+  height: 3em;
+}
+.portfolio_svg_text {
+  text-transform: none;
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 3em;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgba(230, 57, 70, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgba(230, 57, 70, 1);
+  }
+  80% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgba(5230, 57, 70, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(230, 57, 70, 1);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
   }
 }

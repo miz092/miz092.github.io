@@ -9,7 +9,7 @@ import video5 from "../../assets/video5.mp4";
 import video6 from "../../assets/video6.mp4";
 
 function Background() {
-  const videos = [video1, video2, video3, video4, video5, video6];
+  const videos = [video2, video3, video4, video5, video6];
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const [showVideo, setShowVideo] = useState(false);
 
