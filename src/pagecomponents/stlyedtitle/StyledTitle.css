@@ -51,16 +51,6 @@
     width: 100%;
     position: relative;
   }
-
-  #hello {
-    width: 100%;
-    animation: pulse 2s linear infinite;
-  }
-
-  #hello:after {
-    content: "";
-    animation: spin 10s linear infinite 1s;
-  }
 }
 @media only screen and (max-height: 500px) {
   .portfolio__styledTitle_container {
@@ -85,7 +75,7 @@
 }
 .portfolio_svg_text {
   text-transform: none;
-  animation: stroke 2.5s infinite alternate;
+  animation: stroke 2s infinite alternate;
   stroke-width: 2;
   stroke: #365fa0;
   font-size: 3.5em;

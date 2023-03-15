@@ -3,31 +3,31 @@ import "./StyledTitle.css";
 
 function StyledTitle() {
   const words = [
-    "¡Hola allí!",
-    "Salut là-bas!",
-    "Hallo dort!",
-    "Ciao là!",
-    "こんにちは!",
-    "Cześć tam!",
-    "Olá lá!",
-    "Привіт там!",
-    "Hallo daar!",
-    "Hej där!",
-    "Merhaba orada!",
-    "안녕하세요!",
-    "你好！",
-    "سلام!",
-    "Γεια σου!",
-    "שלום!",
-    "नमस्ते!",
-    "สวัสดี!",
+    "¡Hola, allí!",
+    "Salut, là-bas!",
+    "Hallo, dort!",
+    "Ciao, là!",
+    "こんにちは、そこ!",
+    "Cześć, tam!",
+    "Olá, lá!",
+    "Привіт, там!",
+    "Hallo, daar!",
+    "Hej, där!",
+    "Merhaba, orada!",
+    "안녕하세요, 거기!",
+    "你好，那里！",
+    "سلام، آنجا!",
+    "Γεια σου, εκεί!",
+    "שלום, שם!",
+    "नमस्ते, वहाँ!",
+    "สวัสดี, ที่นั่น!",
     "Helló!",
-    "Ahoj tam!",
-    "Tere seal!",
+    "Ahoj, tam!",
+    "Tere, seal!",
   ];
 
   const [currentWord, setCurrentWord] = useState(words[0]);
-  const wordChangeInterval = 5000;
+  const wordChangeInterval = 4000;
 
   useEffect(() => {
     let intervalId;

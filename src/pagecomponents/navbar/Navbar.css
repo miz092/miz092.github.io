@@ -6,7 +6,7 @@
   z-index: 2;
   transition: all 0.3s ease;
   text-decoration: none;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 
 .portfolio__navbar::before {
@@ -73,11 +73,11 @@
   height: 80vh;
   background-color: #212f45;
   position: relative;
-  font-size: 45px;
 }
 
 #open .portfolio__navbar_links {
   flex-direction: column;
+
   justify-content: flex-start;
   z-index: 2;
 }
@@ -86,6 +86,7 @@
   justify-content: center;
   align-items: center;
   z-index: 2;
+  font-size: 30px;
 }
 @media only screen and (max-width: 950px) {
   .portfolio__navbar {
